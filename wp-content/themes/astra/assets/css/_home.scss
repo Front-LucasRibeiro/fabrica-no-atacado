@@ -1,0 +1,99 @@
+body.home{
+  .wp-container-623a59044e8e1.wp-block-group.alignfull.has-ast-global-color-5-background-color.has-background{
+    display: none!important;
+  }
+
+  .wp-block-group.alignfull{
+    padding: 32px 12px;
+
+    .wp-block-columns.alignwide.are-vertically-aligned-center{
+      margin-top: 0;
+    }
+  }
+
+  .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column:nth-child(2n),
+  .wp-block-columns:not(.is-not-stacked-on-mobile)>.wp-block-column:not(:only-child){
+    @media (min-width: 600px) and (max-width: 781px){
+      flex-basis: auto!important;
+      margin: 0;
+    }
+  }
+
+  .wp-block-group__inner-container{
+    &:nth-of-type(1){
+      @media(max-width: 781px){
+        overflow: auto;
+
+        .wp-block-columns.alignwide{
+          display: flex;
+          width: 800px;
+          height: 350px;
+          overflow: auto;
+          flex-wrap: nowrap;
+          overflow-y: hidden;
+
+          .wp-block-column.is-vertically-aligned-center{
+            padding: 0 6px;
+
+            &:last-child{
+              .banner-top-item{
+                @media(max-width: 781px){
+                  top: -6px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .banner-top-item{
+    @media(max-width: 781px){
+      margin: 8px 0;
+      min-height: auto!important;
+      height: 350px;
+      overflow-y: hidden;
+
+      &:last-child{
+        margin: 0;
+      }
+    }
+  
+  }
+}
+
+button#place_order{
+  margin-top: 22px;
+}
+
+label[for="shipping_method_0_local_pickup2"]{
+  @media (max-width: 921px){
+    text-align: center;
+    margin: 12px 0!important;
+  }
+}
+
+td[data-title="Entrega"]{
+  @media (max-width: 921px){
+    display: flex!important;
+    flex-direction: column;
+  }
+}
+
+.select2-container{
+  max-width: 100%;
+}
+
+#shipping_method{
+  @media (max-width: 921px){
+    margin: 12px 0!important;
+    text-align: center;
+  }
+}
+
+.woocommerce table.shop_table_responsive tr td::before, .woocommerce-page table.shop_table_responsive tr td::before{
+  @media (max-width: 921px){
+    text-align: left;
+  }
+}

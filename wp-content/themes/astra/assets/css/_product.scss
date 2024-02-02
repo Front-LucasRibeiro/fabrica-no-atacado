@@ -1,0 +1,11 @@
+// econder tabs informações adicionais 
+// .product-template-default {
+//   .additional_information_tab{
+//     display: none!important;
+//   }
+// }
+
+.product-template-default .ast-shipping-text,
+.product-template-default .single-product-category{
+  display: none!important;
+}

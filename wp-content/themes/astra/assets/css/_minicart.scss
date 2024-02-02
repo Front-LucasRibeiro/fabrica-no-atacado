@@ -1,0 +1,30 @@
+.woocommerce-mini-cart__empty-message{
+    font-size: 0;
+
+    &:before{
+        content: "Carrinho vazio";
+        font-size: 14px;
+    }
+}
+
+.button.wc-forward.ast-continue-shopping{
+    font-size: 0;
+
+    &:before{
+        content: "Continuar Comprando";
+        font-size: 12px;
+        line-height: 12px;
+    }
+}
+
+
+// titulo pagina do carrinho 
+.woocommerce-cart .has-text-align-center.wp-block-heading{
+    font-size: 0;
+
+    &:before{
+        content: "Carrinho";
+        font-size: 4.125rem;
+        line-height: 1.2em;
+    }
+}

@@ -1,0 +1,64 @@
+button#place_order{
+  margin-top: 22px;
+}
+
+footer{
+  .site-below-footer-wrap{
+    background-color: #222!important;
+    padding: 8px 12px!important;
+  }
+
+  .widget-title{
+    font-size: 15.5px!important;
+    font-weight: bold!important;
+
+    @media (max-width: 544px){
+      margin-bottom: 8px;
+    }
+  }
+
+  .site-footer-section{
+    a{
+      white-space: nowrap;
+    }
+
+    @media (max-width: 544px){
+      margin-top: 14px;
+    }
+  }
+
+  .widget.widget_nav_menu{
+    margin-bottom: 0!important;
+  }
+}
+
+label[for="shipping_method_0_local_pickup2"]{
+  @media (max-width: 921px){
+    text-align: center;
+    margin: 8px 12px!important;
+  }
+}
+
+td[data-title="Entrega"]{
+  @media (max-width: 921px){
+    display: flex!important;
+    flex-direction: column;
+  }
+}
+
+.select2-container{
+  max-width: 100%;
+}
+
+#shipping_method{
+  @media (max-width: 921px){
+    margin: 12px 0!important;
+    text-align: center;
+  }
+}
+
+.woocommerce table.shop_table_responsive tr td::before, .woocommerce-page table.shop_table_responsive tr td::before{
+  @media (max-width: 921px){
+    text-align: left;
+  }
+}

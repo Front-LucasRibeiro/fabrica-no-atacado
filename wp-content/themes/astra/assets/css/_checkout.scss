@@ -1,0 +1,49 @@
+button#place_order{
+  margin-top: 22px;
+}
+
+#billing_cellphone_field{
+  display: none;
+}
+
+label[for="shipping_method_0_local_pickup2"]{
+  @media (max-width: 921px){
+    text-align: center;
+    margin: 12px 0!important;
+  }
+}
+
+td[data-title="Entrega"]{
+  @media (max-width: 921px){
+    display: flex!important;
+    flex-direction: column;
+  }
+}
+
+.select2-container{
+  max-width: 100%;
+}
+
+#shipping_method{
+  @media (max-width: 921px){
+    margin: 12px 0!important;
+    text-align: center;
+  }
+}
+
+.woocommerce table.shop_table_responsive tr td::before, .woocommerce-page table.shop_table_responsive tr td::before{
+  @media (max-width: 921px){
+    text-align: left;
+  }
+}
+
+
+.checkout-button.button.alt.wc-forward{
+  font-size: 0;
+
+  &:before{
+    content: 'Finalizar Compra';
+    font-size: 17.5px;
+    line-height: 44px;
+  }
+}
